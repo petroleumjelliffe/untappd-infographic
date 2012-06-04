@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D78000A157D39D3004F7650 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D780009157D39D3004F7650 /* UIKit.framework */; };
+		8D78000C157D39D3004F7650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D78000B157D39D3004F7650 /* Foundation.framework */; };
+		8D78000E157D39D3004F7650 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D78000D157D39D3004F7650 /* CoreGraphics.framework */; };
+		8D780010157D39D3004F7650 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D78000F157D39D3004F7650 /* CoreData.framework */; };
+		8D780016157D39D3004F7650 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D780014157D39D3004F7650 /* InfoPlist.strings */; };
+		8D780018157D39D3004F7650 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D780017157D39D3004F7650 /* main.m */; };
+		8D78001C157D39D3004F7650 /* BIGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D78001B157D39D3004F7650 /* BIGAppDelegate.m */; };
+		8D78001F157D39D3004F7650 /* Beer_Infograph.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D78001D157D39D3004F7650 /* Beer_Infograph.xcdatamodeld */; };
+		8D780027157D39D3004F7650 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D780026157D39D3004F7650 /* SenTestingKit.framework */; };
+		8D780028157D39D3004F7650 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D780009157D39D3004F7650 /* UIKit.framework */; };
+		8D780029157D39D3004F7650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D78000B157D39D3004F7650 /* Foundation.framework */; };
+		8D78002A157D39D3004F7650 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D78000F157D39D3004F7650 /* CoreData.framework */; };
+		8D780032157D39D3004F7650 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D780030157D39D3004F7650 /* InfoPlist.strings */; };
+		8D780035157D39D3004F7650 /* Beer_InfographTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D780034157D39D3004F7650 /* Beer_InfographTests.m */; };
+		8D780043157D3A41004F7650 /* BIGStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D780042157D3A41004F7650 /* BIGStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D78002B157D39D3004F7650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D78FFFC157D39D3004F7650 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D780004157D39D3004F7650;
+			remoteInfo = "Beer Infograph";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D780005157D39D3004F7650 /* Beer Infograph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beer Infograph.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D780009157D39D3004F7650 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D78000B157D39D3004F7650 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D78000D157D39D3004F7650 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D78000F157D39D3004F7650 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8D780013157D39D3004F7650 /* Beer Infograph-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Beer Infograph-Info.plist"; sourceTree = "<group>"; };
+		8D780015157D39D3004F7650 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D780017157D39D3004F7650 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D780019157D39D3004F7650 /* Beer Infograph-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beer Infograph-Prefix.pch"; sourceTree = "<group>"; };
+		8D78001A157D39D3004F7650 /* BIGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIGAppDelegate.h; sourceTree = "<group>"; };
+		8D78001B157D39D3004F7650 /* BIGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIGAppDelegate.m; sourceTree = "<group>"; };
+		8D78001E157D39D3004F7650 /* Beer_Infograph.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Beer_Infograph.xcdatamodel; sourceTree = "<group>"; };
+		8D780025157D39D3004F7650 /* Beer InfographTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beer InfographTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D780026157D39D3004F7650 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8D78002F157D39D3004F7650 /* Beer InfographTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Beer InfographTests-Info.plist"; sourceTree = "<group>"; };
+		8D780031157D39D3004F7650 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D780033157D39D3004F7650 /* Beer_InfographTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Beer_InfographTests.h; sourceTree = "<group>"; };
+		8D780034157D39D3004F7650 /* Beer_InfographTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beer_InfographTests.m; sourceTree = "<group>"; };
+		8D780042157D3A41004F7650 /* BIGStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BIGStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D780002157D39D3004F7650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D78000A157D39D3004F7650 /* UIKit.framework in Frameworks */,
+				8D78000C157D39D3004F7650 /* Foundation.framework in Frameworks */,
+				8D78000E157D39D3004F7650 /* CoreGraphics.framework in Frameworks */,
+				8D780010157D39D3004F7650 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D780021157D39D3004F7650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D780027157D39D3004F7650 /* SenTestingKit.framework in Frameworks */,
+				8D780028157D39D3004F7650 /* UIKit.framework in Frameworks */,
+				8D780029157D39D3004F7650 /* Foundation.framework in Frameworks */,
+				8D78002A157D39D3004F7650 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D780006157D39D3004F7650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D780005157D39D3004F7650 /* Beer Infograph.app */,
+				8D780025157D39D3004F7650 /* Beer InfographTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D780008157D39D3004F7650 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D780009157D39D3004F7650 /* UIKit.framework */,
+				8D78000B157D39D3004F7650 /* Foundation.framework */,
+				8D78000D157D39D3004F7650 /* CoreGraphics.framework */,
+				8D78000F157D39D3004F7650 /* CoreData.framework */,
+				8D780026157D39D3004F7650 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D780011157D39D3004F7650 /* Beer Infograph */ = {
+			isa = PBXGroup;
+			children = (
+				8D780040157D3A17004F7650 /* Controller */,
+				8D78003F157D3A11004F7650 /* View */,
+				8D78003E157D3A0A004F7650 /* Model */,
+				8D78001A157D39D3004F7650 /* BIGAppDelegate.h */,
+				8D78001B157D39D3004F7650 /* BIGAppDelegate.m */,
+				8D78001D157D39D3004F7650 /* Beer_Infograph.xcdatamodeld */,
+				8D780012157D39D3004F7650 /* Supporting Files */,
+			);
+			path = "Beer Infograph";
+			sourceTree = "<group>";
+		};
+		8D780012157D39D3004F7650 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D780013157D39D3004F7650 /* Beer Infograph-Info.plist */,
+				8D780014157D39D3004F7650 /* InfoPlist.strings */,
+				8D780017157D39D3004F7650 /* main.m */,
+				8D780019157D39D3004F7650 /* Beer Infograph-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D78002D157D39D3004F7650 /* Beer InfographTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D780033157D39D3004F7650 /* Beer_InfographTests.h */,
+				8D780034157D39D3004F7650 /* Beer_InfographTests.m */,
+				8D78002E157D39D3004F7650 /* Supporting Files */,
+			);
+			path = "Beer InfographTests";
+			sourceTree = "<group>";
+		};
+		8D78002E157D39D3004F7650 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D78002F157D39D3004F7650 /* Beer InfographTests-Info.plist */,
+				8D780030157D39D3004F7650 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D78003E157D3A0A004F7650 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8D78003F157D3A11004F7650 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D780041157D3A1E004F7650 /* Storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8D780040157D3A17004F7650 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8D780041157D3A1E004F7650 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8D780042157D3A41004F7650 /* BIGStoryboard.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		8D78FFFA157D39D3004F7650 = {
+			isa = PBXGroup;
+			children = (
+				8D780011157D39D3004F7650 /* Beer Infograph */,
+				8D78002D157D39D3004F7650 /* Beer InfographTests */,
+				8D780008157D39D3004F7650 /* Frameworks */,
+				8D780006157D39D3004F7650 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D780004157D39D3004F7650 /* Beer Infograph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D780038157D39D3004F7650 /* Build configuration list for PBXNativeTarget "Beer Infograph" */;
+			buildPhases = (
+				8D780001157D39D3004F7650 /* Sources */,
+				8D780002157D39D3004F7650 /* Frameworks */,
+				8D780003157D39D3004F7650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Beer Infograph";
+			productName = "Beer Infograph";
+			productReference = 8D780005157D39D3004F7650 /* Beer Infograph.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D780024157D39D3004F7650 /* Beer InfographTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D78003B157D39D3004F7650 /* Build configuration list for PBXNativeTarget "Beer InfographTests" */;
+			buildPhases = (
+				8D780020157D39D3004F7650 /* Sources */,
+				8D780021157D39D3004F7650 /* Frameworks */,
+				8D780022157D39D3004F7650 /* Resources */,
+				8D780023157D39D3004F7650 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D78002C157D39D3004F7650 /* PBXTargetDependency */,
+			);
+			name = "Beer InfographTests";
+			productName = "Beer InfographTests";
+			productReference = 8D780025157D39D3004F7650 /* Beer InfographTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D78FFFC157D39D3004F7650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BIG;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Malloc Media L.L.C.";
+			};
+			buildConfigurationList = 8D78FFFF157D39D3004F7650 /* Build configuration list for PBXProject "Beer Infograph" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D78FFFA157D39D3004F7650;
+			productRefGroup = 8D780006157D39D3004F7650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D780004157D39D3004F7650 /* Beer Infograph */,
+				8D780024157D39D3004F7650 /* Beer InfographTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D780003157D39D3004F7650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D780016157D39D3004F7650 /* InfoPlist.strings in Resources */,
+				8D780043157D3A41004F7650 /* BIGStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D780022157D39D3004F7650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D780032157D39D3004F7650 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D780023157D39D3004F7650 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D780001157D39D3004F7650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D780018157D39D3004F7650 /* main.m in Sources */,
+				8D78001C157D39D3004F7650 /* BIGAppDelegate.m in Sources */,
+				8D78001F157D39D3004F7650 /* Beer_Infograph.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D780020157D39D3004F7650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D780035157D39D3004F7650 /* Beer_InfographTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D78002C157D39D3004F7650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D780004157D39D3004F7650 /* Beer Infograph */;
+			targetProxy = 8D78002B157D39D3004F7650 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D780014157D39D3004F7650 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D780015157D39D3004F7650 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D780030157D39D3004F7650 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D780031157D39D3004F7650 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D780036157D39D3004F7650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D780037157D39D3004F7650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D780039157D39D3004F7650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beer Infograph/Beer Infograph-Prefix.pch";
+				INFOPLIST_FILE = "Beer Infograph/Beer Infograph-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8D78003A157D39D3004F7650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beer Infograph/Beer Infograph-Prefix.pch";
+				INFOPLIST_FILE = "Beer Infograph/Beer Infograph-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8D78003C157D39D3004F7650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Beer Infograph.app/Beer Infograph";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beer Infograph/Beer Infograph-Prefix.pch";
+				INFOPLIST_FILE = "Beer InfographTests/Beer InfographTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8D78003D157D39D3004F7650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Beer Infograph.app/Beer Infograph";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beer Infograph/Beer Infograph-Prefix.pch";
+				INFOPLIST_FILE = "Beer InfographTests/Beer InfographTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D780038157D39D3004F7650 /* Build configuration list for PBXNativeTarget "Beer Infograph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D780039157D39D3004F7650 /* Debug */,
+				8D78003A157D39D3004F7650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D78003B157D39D3004F7650 /* Build configuration list for PBXNativeTarget "Beer InfographTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D78003C157D39D3004F7650 /* Debug */,
+				8D78003D157D39D3004F7650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D78FFFF157D39D3004F7650 /* Build configuration list for PBXProject "Beer Infograph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D780036157D39D3004F7650 /* Debug */,
+				8D780037157D39D3004F7650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8D78001D157D39D3004F7650 /* Beer_Infograph.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8D78001E157D39D3004F7650 /* Beer_Infograph.xcdatamodel */,
+			);
+			currentVersion = 8D78001E157D39D3004F7650 /* Beer_Infograph.xcdatamodel */;
+			path = Beer_Infograph.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8D78FFFC157D39D3004F7650 /* Project object */;
+}
