@@ -5,8 +5,8 @@
 include 'Awsm/Service/Untappd.php';
 
 $apiKey   = '68fc36c4d9e498293f8edfe6ab9453a2';
-$username = 'petroleumjelliffe';
-$password = 'feb781';
+$username = '';
+$password = '';
         
 $untappd = new Awsm_Service_Untappd($apiKey, $username, $password);
         
