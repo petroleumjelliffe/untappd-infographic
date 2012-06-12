@@ -20,16 +20,25 @@ if ($username != '') {
 	//pull the list of distinct beers
 	
 	$offset=0;
-	$loop=1;
+	$loop=25;
 	$autocomplete="[";
+	$passes=1;
+
 	
 	//loop through API cals until you go through the whole list
-	while ($loop=25) {
+	while ($loop==25) {
 		try {
 		    $result = $untappd->userDistinctBeers($username, $offset);
 		} catch (Awsm_Service_Untappd_Exception $e) {
 		    die($e->getMessage());
 		}
+/*
+		$result= new stdClass;
+		$result->returned_results=25;
+		$result->returned_results= new stdClass;
+		$result->returned_results->beer_name="test name";
+		$result->returned_results->brewery_name="test name";
+*/
 		
 		//increment the offset
 		$offset+=$result->returned_results;
@@ -41,7 +50,12 @@ if ($username != '') {
 		foreach ($result->results as $value) {
 			$autocomplete.= "\"".$value->beer_name . " (" . $value->brewery_name . ")\",\n";
 		} 
+
+		echo "offset= $offset\n";
+		echo"pass number $passes\n";
+		$passes++;
 	}
+
 	//close the array
 	$autocomplete.= "\"\"]";
 	
@@ -50,14 +64,13 @@ if ($username != '') {
 //$result="{\"hi\":\"hello\"}";
 ?>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link type="text/css" href="css/ui-lightness/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
 		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
 		<script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>
   <script>
 //  alert(data[0]);
-  <?php echo "var beerlist=$autocomplete;"; ?>
+  <?php //echo "var beerlist=$autocomplete;"; ?>
 //alert(beerlist[0]);
 //beerlist.sort();
 //alert(beerlist[0]);  
