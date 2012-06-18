@@ -22,6 +22,7 @@
 		8D780032157D39D3004F7650 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D780030157D39D3004F7650 /* InfoPlist.strings */; };
 		8D780035157D39D3004F7650 /* Beer_InfographTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D780034157D39D3004F7650 /* Beer_InfographTests.m */; };
 		8D780043157D3A41004F7650 /* BIGStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D780042157D3A41004F7650 /* BIGStoryboard.storyboard */; };
+		8DECF9B2158EE10200D808AA /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DECF9B1158EE10200D808AA /* Beer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		8D780033157D39D3004F7650 /* Beer_InfographTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Beer_InfographTests.h; sourceTree = "<group>"; };
 		8D780034157D39D3004F7650 /* Beer_InfographTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beer_InfographTests.m; sourceTree = "<group>"; };
 		8D780042157D3A41004F7650 /* BIGStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BIGStoryboard.storyboard; sourceTree = "<group>"; };
+		8DECF9B0158EE10200D808AA /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beer.h; sourceTree = "<group>"; };
+		8DECF9B1158EE10200D808AA /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				8D78001A157D39D3004F7650 /* BIGAppDelegate.h */,
 				8D78001B157D39D3004F7650 /* BIGAppDelegate.m */,
 				8D78001D157D39D3004F7650 /* Beer_Infograph.xcdatamodeld */,
+				8DECF9B0158EE10200D808AA /* Beer.h */,
+				8DECF9B1158EE10200D808AA /* Beer.m */,
 				8D780012157D39D3004F7650 /* Supporting Files */,
 			);
 			path = "Beer Infograph";
@@ -298,6 +303,7 @@
 				8D780018157D39D3004F7650 /* main.m in Sources */,
 				8D78001C157D39D3004F7650 /* BIGAppDelegate.m in Sources */,
 				8D78001F157D39D3004F7650 /* Beer_Infograph.xcdatamodeld in Sources */,
+				8DECF9B2158EE10200D808AA /* Beer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +458,7 @@
 				8D78003A157D39D3004F7650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D78003B157D39D3004F7650 /* Build configuration list for PBXNativeTarget "Beer InfographTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +467,7 @@
 				8D78003D157D39D3004F7650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D78FFFF157D39D3004F7650 /* Build configuration list for PBXProject "Beer Infograph" */ = {
 			isa = XCConfigurationList;
