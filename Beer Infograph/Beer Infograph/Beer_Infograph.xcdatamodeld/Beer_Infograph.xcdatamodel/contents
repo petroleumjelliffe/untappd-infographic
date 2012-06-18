@@ -9,7 +9,13 @@
         <attribute name="style" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="unique" optional="YES" attributeType="Boolean" syncable="YES"/>
     </entity>
+    <entity name="User" syncable="YES">
+        <attribute name="next_landmark" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <elements>
-        <element name="Beer" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Beer" positionX="160" positionY="192" width="128" height="150"/>
+        <element name="User" positionX="160" positionY="192" width="128" height="90"/>
     </elements>
 </model>
